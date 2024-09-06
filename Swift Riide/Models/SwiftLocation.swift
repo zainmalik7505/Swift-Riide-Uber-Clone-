@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import CoreLocation
+
+
+struct SwiftLocation{
+    let title: String
+    let coordinate: CLLocationCoordinate2D
+}

@@ -8,24 +8,30 @@
 import SwiftUI
 
 struct LocationSearchActivateView: View {
+    
     var body: some View {
-        HStack{
+        HStack {
             Rectangle()
-                .fill(Color.black)
+                .fill(Color.theme.primaryTextColor)
                 .frame(width: 8, height: 8)
-                .padding(.horizontal)
+                .padding(.leading, 16)
             
             Text("Where to go?")
-                .foregroundStyle(Color(.darkGray))
+                .font(.body)
+                .foregroundColor(Color.theme.primaryTextColor)
+                .padding(.leading, 8)
             
             Spacer()
         }
-        .frame(width: UIScreen.main.bounds.width - 64, height: 50)
+        .padding(.horizontal, 16)
+        .frame(height: 60)
         .background(
-            Rectangle()
-                .fill(Color.white)
-                .shadow(color: .black, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color.theme.backgroundColor)
+                .shadow(color: Color.theme.backgroundColor.opacity(0.2), radius: 10, x: 0, y: 4)
         )
+        .cornerRadius(10)
+        .padding(.horizontal, 16)
     }
 }
 

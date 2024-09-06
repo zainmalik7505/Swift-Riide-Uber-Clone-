@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7130DDE2C8B0DE000236637 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7130DDD2C8B0DE000236637 /* Double.swift */; };
+		F7130DE02C8B116800236637 /* SwiftLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7130DDF2C8B116800236637 /* SwiftLocation.swift */; };
+		F7130DE22C8B62DF00236637 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7130DE12C8B62DF00236637 /* Color.swift */; };
+		F7130DE72C8B76B700236637 /* AppSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = F7130DE42C8B76B600236637 /* AppSearch.png */; };
+		F7130DE82C8B76B700236637 /* AppHome.png in Resources */ = {isa = PBXBuildFile; fileRef = F7130DE52C8B76B700236637 /* AppHome.png */; };
+		F7130DE92C8B76B700236637 /* AppBookRide.png in Resources */ = {isa = PBXBuildFile; fileRef = F7130DE62C8B76B700236637 /* AppBookRide.png */; };
+		F726F3722C86D95000B8C691 /* LocationSearchActivateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F726F3712C86D95000B8C691 /* LocationSearchActivateView.swift */; };
+		F726F3742C86DCC100B8C691 /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F726F3732C86DCC100B8C691 /* MapViewActionButton.swift */; };
+		F726F3762C86DFA600B8C691 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F726F3752C86DFA600B8C691 /* LocationSearchView.swift */; };
+		F726F3782C86E46300B8C691 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F726F3772C86E46300B8C691 /* LocationSearchResultCell.swift */; };
+		F726F37A2C86F1E400B8C691 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F726F3792C86F1E400B8C691 /* LocationSearchViewModel.swift */; };
+		F7A146962C898209008CFEF0 /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A146952C898209008CFEF0 /* RideRequestView.swift */; };
+		F7A146982C89884C008CFEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A146972C89884C008CFEF0 /* Assets.xcassets */; };
+		F7A1469A2C89A8F9008CFEF0 /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A146992C89A8F9008CFEF0 /* RideType.swift */; };
 		F7CD6DCA2C85BFA3001AA27A /* Swift_RiideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CD6DC92C85BFA3001AA27A /* Swift_RiideApp.swift */; };
-		F7CD6DCC2C85BFA3001AA27A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CD6DCB2C85BFA3001AA27A /* ContentView.swift */; };
-		F7CD6DCE2C85BFA4001AA27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CD6DCD2C85BFA4001AA27A /* Assets.xcassets */; };
 		F7CD6DD12C85BFA4001AA27A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CD6DD02C85BFA4001AA27A /* Preview Assets.xcassets */; };
+		F7CD6DE52C85C1CE001AA27A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CD6DE42C85C1CE001AA27A /* HomeView.swift */; };
+		F7CD6DE92C85C28F001AA27A /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CD6DE82C85C28F001AA27A /* MapViewRepresentable.swift */; };
+		F7CD6DEB2C85C64F001AA27A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CD6DEA2C85C64F001AA27A /* LocationManager.swift */; };
+		F7F551B92C885B5C00ADC3E8 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F551B82C885B5C00ADC3E8 /* MapViewState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7130DDD2C8B0DE000236637 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Double.swift; path = "Swift Riide/Assets.xcassets/Double.swift"; sourceTree = SOURCE_ROOT; };
+		F7130DDF2C8B116800236637 /* SwiftLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLocation.swift; sourceTree = "<group>"; };
+		F7130DE12C8B62DF00236637 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F7130DE42C8B76B600236637 /* AppSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppSearch.png; sourceTree = "<group>"; };
+		F7130DE52C8B76B700236637 /* AppHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppHome.png; sourceTree = "<group>"; };
+		F7130DE62C8B76B700236637 /* AppBookRide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppBookRide.png; sourceTree = "<group>"; };
+		F7130E942C8B86F200236637 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+		F726F3712C86D95000B8C691 /* LocationSearchActivateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivateView.swift; sourceTree = "<group>"; };
+		F726F3732C86DCC100B8C691 /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
+		F726F3752C86DFA600B8C691 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		F726F3772C86E46300B8C691 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
+		F726F3792C86F1E400B8C691 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		F7A146952C898209008CFEF0 /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
+		F7A146972C89884C008CFEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A146992C89A8F9008CFEF0 /* RideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
 		F7CD6DC62C85BFA3001AA27A /* Swift Riide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Riide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CD6DC92C85BFA3001AA27A /* Swift_RiideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RiideApp.swift; sourceTree = "<group>"; };
-		F7CD6DCB2C85BFA3001AA27A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F7CD6DCD2C85BFA4001AA27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7CD6DD02C85BFA4001AA27A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7CD6DE42C85C1CE001AA27A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F7CD6DE82C85C28F001AA27A /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
+		F7CD6DEA2C85C64F001AA27A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F7F551B82C885B5C00ADC3E8 /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7130DE32C8B763A00236637 /* AppImages */ = {
+			isa = PBXGroup;
+			children = (
+				F7130DE62C8B76B700236637 /* AppBookRide.png */,
+				F7130DE52C8B76B700236637 /* AppHome.png */,
+				F7130DE42C8B76B600236637 /* AppSearch.png */,
+			);
+			path = AppImages;
+			sourceTree = "<group>";
+		};
+		F726F36D2C86D8FC00B8C691 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD6DE32C85C1B7001AA27A /* Views */,
+				F7CD6DE22C85C195001AA27A /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F726F36E2C86D90900B8C691 /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				F726F3702C86D92F00B8C691 /* View */,
+				F726F36F2C86D92600B8C691 /* ViewModel */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		F726F36F2C86D92600B8C691 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F726F3792C86F1E400B8C691 /* LocationSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F726F3702C86D92F00B8C691 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F726F3712C86D95000B8C691 /* LocationSearchActivateView.swift */,
+				F726F3752C86DFA600B8C691 /* LocationSearchView.swift */,
+				F726F3772C86E46300B8C691 /* LocationSearchResultCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7A146942C8981EB008CFEF0 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				F7A146952C898209008CFEF0 /* RideRequestView.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
 		F7CD6DBD2C85BFA3001AA27A = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +138,16 @@
 		F7CD6DC82C85BFA3001AA27A /* Swift Riide */ = {
 			isa = PBXGroup;
 			children = (
+				F7130DE32C8B763A00236637 /* AppImages */,
+				F7CD6DE12C85C0DB001AA27A /* App */,
+				F7CD6DE02C85C0D9001AA27A /* Core */,
+				F7CD6DDF2C85C0D7001AA27A /* Extensions */,
+				F7CD6DDE2C85C0D5001AA27A /* Managers */,
+				F7CD6DDC2C85C0CB001AA27A /* Models */,
 				F7CD6DC92C85BFA3001AA27A /* Swift_RiideApp.swift */,
-				F7CD6DCB2C85BFA3001AA27A /* ContentView.swift */,
-				F7CD6DCD2C85BFA4001AA27A /* Assets.xcassets */,
+				F7A146972C89884C008CFEF0 /* Assets.xcassets */,
 				F7CD6DCF2C85BFA4001AA27A /* Preview Content */,
+				F7130E942C8B86F200236637 /* Script.sh */,
 			);
 			path = "Swift Riide";
 			sourceTree = "<group>";
@@ -65,6 +158,67 @@
 				F7CD6DD02C85BFA4001AA27A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7CD6DDC2C85C0CB001AA27A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7F551B82C885B5C00ADC3E8 /* MapViewState.swift */,
+				F7A146992C89A8F9008CFEF0 /* RideType.swift */,
+				F7130DDF2C8B116800236637 /* SwiftLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7CD6DDE2C85C0D5001AA27A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD6DEA2C85C64F001AA27A /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F7CD6DDF2C85C0D7001AA27A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7130DDD2C8B0DE000236637 /* Double.swift */,
+				F7130DE12C8B62DF00236637 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F7CD6DE02C85C0D9001AA27A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F7A146942C8981EB008CFEF0 /* Trips */,
+				F726F36E2C86D90900B8C691 /* LocationSearch */,
+				F726F36D2C86D8FC00B8C691 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F7CD6DE12C85C0DB001AA27A /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F7CD6DE22C85C195001AA27A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F7CD6DE32C85C1B7001AA27A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7CD6DE42C85C1CE001AA27A /* HomeView.swift */,
+				F7CD6DE82C85C28F001AA27A /* MapViewRepresentable.swift */,
+				F726F3732C86DCC100B8C691 /* MapViewActionButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +279,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7130DE92C8B76B700236637 /* AppBookRide.png in Resources */,
+				F7130DE82C8B76B700236637 /* AppHome.png in Resources */,
+				F7130DE72C8B76B700236637 /* AppSearch.png in Resources */,
+				F7A146982C89884C008CFEF0 /* Assets.xcassets in Resources */,
 				F7CD6DD12C85BFA4001AA27A /* Preview Assets.xcassets in Resources */,
-				F7CD6DCE2C85BFA4001AA27A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +294,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7CD6DCC2C85BFA3001AA27A /* ContentView.swift in Sources */,
+				F726F37A2C86F1E400B8C691 /* LocationSearchViewModel.swift in Sources */,
+				F726F3762C86DFA600B8C691 /* LocationSearchView.swift in Sources */,
+				F7130DE02C8B116800236637 /* SwiftLocation.swift in Sources */,
+				F7CD6DEB2C85C64F001AA27A /* LocationManager.swift in Sources */,
+				F7A146962C898209008CFEF0 /* RideRequestView.swift in Sources */,
+				F7130DDE2C8B0DE000236637 /* Double.swift in Sources */,
+				F7F551B92C885B5C00ADC3E8 /* MapViewState.swift in Sources */,
+				F726F3742C86DCC100B8C691 /* MapViewActionButton.swift in Sources */,
+				F7130DE22C8B62DF00236637 /* Color.swift in Sources */,
+				F7CD6DE52C85C1CE001AA27A /* HomeView.swift in Sources */,
+				F7CD6DE92C85C28F001AA27A /* MapViewRepresentable.swift in Sources */,
 				F7CD6DCA2C85BFA3001AA27A /* Swift_RiideApp.swift in Sources */,
+				F726F3722C86D95000B8C691 /* LocationSearchActivateView.swift in Sources */,
+				F726F3782C86E46300B8C691 /* LocationSearchResultCell.swift in Sources */,
+				F7A1469A2C89A8F9008CFEF0 /* RideType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +445,7 @@
 				DEVELOPMENT_TEAM = 8TNP7LCQ34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your permission to access your location so we can find nearby drivers and get you a ride quickly and efficiently. Please allow location access to continue.\n\n";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +475,7 @@
 				DEVELOPMENT_TEAM = 8TNP7LCQ34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your permission to access your location so we can find nearby drivers and get you a ride quickly and efficiently. Please allow location access to continue.\n\n";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

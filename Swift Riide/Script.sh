@@ -1,0 +1,2 @@
+open -a Terminal .
+
