@@ -1,8 +1,10 @@
 ## App Preview
 
-![App Book Ride](https://github.com/zainmalik7505/Swift-Riide-Uber-Clone-/raw/220686cf3225610768d48c62deac05635a059308/Swift%20Riide/AppImages/AppBookRide.png)
-
-
+<p align="center">
+  <img src="https://github.com/zainmalik7505/Swift-Riide-Uber-Clone-/raw/399a165949c2be4701730982243053a3901e859f/Swift%20Riide/AppImages/AppHome.png" alt="App Home" width="30%" style="margin-right: 10px;" />
+  <img src="https://github.com/zainmalik7505/Swift-Riide-Uber-Clone-/raw/399a165949c2be4701730982243053a3901e859f/Swift%20Riide/AppImages/AppSearch.png" alt="App Search" width="30%" />
+     <img src="https://github.com/zainmalik7505/Swift-Riide-Uber-Clone-/raw/220686cf3225610768d48c62deac05635a059308/Swift%20Riide/AppImages/AppBookRide.png" alt="App Book Ride" width="30%" style="margin-right: 10px;" />
+</p>
 
 # Swift-Riide-Uber-Clone
 
